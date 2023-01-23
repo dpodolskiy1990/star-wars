@@ -1,0 +1,28 @@
+.home__container{
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 190px;
+        background-color: #fff;
+        text-decoration: none;
+        img{
+            height: 100%;
+            width: 190px;
+            object-fit: cover;
+            object-position: top center;
+        }
+        p{
+            height: 30px;
+            font-size: 1.5rem;
+            vertical-align: middle;
+            color: #000;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.wraper{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    .link{
+       color: yellow; 
+       padding: 5px 10px;
+       text-decoration: none;
+       border: 2px solid yellow;
+       border-radius: 3px;
+       font-size: 1.7rem;
+       margin-right: 10px;
+       transition: all 0.5s ease;
+       &:hover{
+        color: purple;
+        border: 2px solid purple;
+
+       }
+    }
+}
+.activete{
+    color: purple;
+    border: 2px solid purple;
+   }
+.activete{
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 1.7rem;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+    color: purple;
+    border: 2px solid purple;
+   }
